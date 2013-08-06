@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+entitygen.DEFAULT_PACKAGE=com.sap.csc.task-board.persistence.entities
+workspace_validation_preferences_overridden=false
