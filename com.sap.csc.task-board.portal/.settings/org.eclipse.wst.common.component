@@ -4,6 +4,15 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="com.sap.csc.task-board.business-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.sap.csc.task-board.business/com.sap.csc.task-board.business">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.sap.csc.task-board.common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.sap.csc.task-board.common/com.sap.csc.task-board.common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.sap.csc.task-board.integration-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/com.sap.csc.task-board.integration/com.sap.csc.task-board.integration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="com.sap.csc.task-board.portal"/>
         <property name="java-output-path" value="/com.sap.csc.task-board.portal/build/classes"/>
     </wb-module>
